@@ -1,0 +1,1166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none !important;
+	list-style: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	clear: both;
+	content: ".";
+	line-height: 0;
+}
+
+body {
+	background: #f1f1f1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	margin: 0;
+}
+
+.d-inline {
+	display: inline-block;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-none {
+	display: none;
+}
+
+.pdrigthhome-0 {
+	padding-right: 0;
+}
+
+.pdllefthome-0 {
+	padding-left: 0;
+}
+
+.cart-inner-layer-parent {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.cart-inner-layer-inner {}
+
+.inner-oakely-network-section {
+	background: #fff;
+	width: 320px;
+}
+
+.inner-oakely-network-section h2 {
+	background: #232146;
+	color: #fff;
+	font-size: 20px;
+	margin: 0;
+	padding: 13px 15px;
+	margin-bottom: 10px;
+}
+
+.client-profile-section {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+.client-profile-section .media {
+	border-bottom: none;
+	padding: 15px 30px 8px;
+}
+
+.client-profile-section .media img {
+	width: 100px;
+}
+
+.client-profile-section .media-body {
+	margin-left: 25px;
+}
+
+.client-profile-section .media-body h4 {}
+
+.client-profile-section .media-body h4 {
+	color: #4836b8;
+	font-size: 16px;
+	margin-bottom: 0;
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+.client-profile-section .media-body p {
+	font-size: 13px;
+	color: #3d3c4c;
+	margin-bottom: 17px;
+	font-weight: 600;
+}
+
+.client-profile-section .media-body a.connect-btn {
+	background: #01cd88;
+	color: #fff;
+	width: 140px;
+	text-align: center;
+	height: 36px;
+	display: block;
+	font-size: 15px;
+	line-height: 36px;
+	font-weight: 600;
+}
+
+.more-client-section {
+	text-align: center;
+	padding: 15px 0;
+}
+
+.more-btn-client {
+	font-size: 16px;
+	color: #000;
+	font-weight: 600;
+}
+
+.more-client-section a i {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.similar-job-pnl {
+	background: #fff;
+	margin-top: 25px;
+	width: 320px;
+}
+
+.similar-job-pnl h2 {
+	background: #232146;
+	color: #fff;
+	font-size: 20px;
+	margin: 0;
+	padding: 13px 15px;
+	margin-bottom: 10px;
+}
+
+.similar-job-pnl ul {
+	padding: 0 15px 14px 15px;
+	/* display: block; */
+}
+
+.similar-job-pnl ul li {}
+
+.similar-job-pnl ul li a {
+	padding: 6px 0px;
+	display: block;
+	color: #4a33c8;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.profile-details-section {
+	background: #fff;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.inner-profile-details {
+	padding-bottom: 20px;
+}
+
+.user-profile-parent {
+	padding-bottom: 0;
+	border-bottom: 1px solid #ededed;
+}
+
+.inner-profile-parent {}
+
+.follow-company-section {
+	width: 235px;
+	float: left;
+	/* margin-bottom: 12px; */
+	padding: 10px 15px;
+	border-right: 1px solid #ededed;
+	height: 295px;
+	/* line-height: 295px; */
+}
+
+.follow-company-inner-section {}
+
+.follow-company-inner-section {
+	width: 150px;
+	display: block;
+	margin: auto;
+	/* line-height: 295px; */
+}
+
+.follow-company-inner-section img {
+	width: 100%;
+	display: block;
+	margin-top: 100px;
+	/* line-height: 295px; */
+}
+
+.follow-btn {
+	display: block;
+	width: 100%;
+	border: 1px solid #ededed;
+	text-align: center;
+	color: #000;
+	height: 36px;
+	line-height: 32px;
+	margin-top: 75px;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.profile-description-box {
+	display: inline-block;
+	width: 515px;
+}
+
+.header-description {
+	width: 100%;
+	border-bottom: 1px solid #ededed;
+	padding: 12px 15px;
+}
+
+.header-description h2 {
+	display: inline-block;
+	font-size: 18px;
+	color: #4735c3;
+	font-weight: 600;
+	margin-bottom: 0;
+	position: relative;
+}
+
+.share-profile-btn {
+	float: right;
+	background: none;
+	border: none;
+	font-size: 16px;
+	color: #4735c3;
+	font-weight: 600;
+}
+
+.share-profile-btn i {
+	margin-right: 5px;
+}
+
+.header-description h2::after {
+	position: absolute;
+	top: -12px;
+	right: -160px;
+	content: "";
+	width: 1px;
+	background: #ededed;
+	height: 44px;
+}
+
+.description-parent-profile {
+	padding-left: 15px;
+	padding-top: 25px;
+}
+
+.description-parent-profile h2 {
+	font-size: 16px;
+	color: #4735c3;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.description-parent-profile h2 span {
+	display: block;
+	color: #9b9b9b;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 4px;
+}
+
+.description-parent-profile h3 {
+	font-size: 16px;
+	color: #4735c3;
+	font-weight: 600;
+}
+
+.desc-details {
+	color: #9b9b9b;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.action-btn {}
+
+.job-save-btn {
+	width: 50%;
+	margin: 0;
+	background: #4433cd;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	height: 36px;
+	font-weight: 600;
+}
+
+.job-apply-btn {
+	width: 50%;
+	margin: 0;
+	margin: 0;
+	background: #232146;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	height: 36px;
+	font-weight: 600;
+	margin-left: -4px;
+}
+
+.job-apply-btn i {
+	margin-right: 10px;
+}
+
+.job-save-btn i {
+	margin-right: 10px;
+}
+
+label.myLabel input[type="file"] {
+	position: absolute;
+	top: -1000px;
+	display: none;
+}
+
+
+/***** Example custom styling *****/
+
+.myLabel {
+	border: 2px solid #AAA;
+	border-radius: 0;
+	padding: 5px 5px;
+	background: none;
+	display: block;
+	text-align: center;
+	border: 1px solid #ededed;
+	margin-top: 0;
+	margin-bottom: 12px;
+	cursor: pointer;
+}
+
+.myLabel:active {
+	background: #CCF;
+}
+
+.myLabel :invalid+span {
+	color: #000;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.myLabel :valid+span {
+	color: #4A4;
+}
+
+.upload-attachment-section {
+	margin-top: 30px;
+}
+
+.preview-application {
+	border-radius: 0;
+	padding: 5px 5px;
+	background: none;
+	display: block;
+	text-align: center;
+	border: 1px solid #ededed;
+	color: #000;
+	margin-top: 0;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 12px;
+}
+
+.apply-btn-job {
+	display: block;
+	background: #232146;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	height: 36px;
+	font-weight: 600;
+	width: 100%;
+	margin-top: 12px;
+}
+
+.apply-btn-job i {}
+
+.add-cover-letter-sample {
+	padding: 20px 25px;
+}
+
+.cover-letter-textarea label {
+	color: #808082;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.cover-letter-textarea textarea {
+	width: 100%;
+	height: 140px;
+	resize: none;
+	border: 1px solid #ededed;
+}
+
+.apply-btn-job i {
+	margin-right: 10px;
+}
+
+.top-resume-section {
+	background: #f5f9fa;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.top-resume-section h3 {
+	color: #4736b5;
+	font-size: 15px;
+	margin: 0;
+	font-weight: 600;
+}
+
+.top-resume-section h3 img {
+	width: 100px;
+}
+
+.dropdown-tab-section {
+	/* background: #fff; */
+	margin-top: 20px;
+}
+
+.dropdown-tab-section ul {
+	justify-content: center;
+	/* width: 100%; */
+	/* display: block; */
+	/* margin: 0; */
+	/* padding: 0; */
+	border-bottom: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-tab-section ul li {}
+
+.dropdown-tab-section ul li a {
+	font-size: 18px;
+	color: #aaaaaa;
+	font-weight: 600;
+	padding: 15px 98px;
+	text-align: center;
+	display: block;
+	background: #e8eae9;
+	position: relative;
+	border: none;
+}
+
+.dropdown-tab-section ul li a::after {
+	content: "\f078";
+	color: #aaaaaa;
+	top: 18px;
+	right: 70px;
+	position: absolute;
+	font-family: 'Font Awesome 5 Free';
+}
+
+.dropdown-tab-section .tab-content {
+	background: #fff;
+	padding: 10px 15px;
+	margin-right: 4px;
+}
+
+.dropdown-tab-section .fade:not(.show) {
+	opacity: 1;
+}
+
+.dropdown-tab-section .nav-tabs>li.active>a {
+	cursor: default;
+	border: none;
+	background: #ffffff;
+	color: #4735c3;
+}
+
+.dropdown-tab-section .nav-tabs>li.active>a::after {
+	content: "\f077";
+	color: #4735c3;
+}
+
+.popup-btn-cmn {
+	margin-top: 30px;
+}
+
+.add-an-attachment {
+	display: block;
+	background: #232146;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+	font-weight: 600;
+	width: 50%;
+	margin: auto;
+}
+
+.description-parent-profile .col-sm-6 {
+	margin-bottom: 15px;
+}
+
+.action-btn {
+	margin-top: 5px;
+}
+
+.cmn-modal-dialog-attachment {
+	width: 900px;
+}
+
+.cmn-modal-content-parent-attachment {
+	border-radius: 0;
+	border: none;
+}
+
+.cmn-modal-body-attachment {
+	padding: 40px 30px;
+}
+
+.select-attachment {}
+
+.select-attachment label {
+	color: #808285;
+	font-size: 15px;
+	display: block;
+	font-weight: 600;
+}
+
+.select-attachment select {
+	width: 100%;
+	padding: 12px 12px;
+	color: #8b8c8f;
+	border: 1px solid #ededed;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.attachment-btn-div {}
+
+.text-option-field {}
+
+.text-option-field h3 {
+	color: #808285;
+	font-size: 16px;
+	display: block;
+	font-weight: 600;
+}
+
+.text-option-field ul {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.text-option-field ul li {
+	list-style-type: disc;
+}
+
+.text-option-field ul li p {
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #7f7f81;
+}
+
+.attachment-btn-div .myLabel {
+	border-radius: 0;
+	padding: 12px 5px;
+	background: #222244;
+	display: block;
+	text-align: center;
+	border: 1px solid #222244;
+	margin-top: 0;
+	margin-bottom: 12px;
+	cursor: pointer;
+}
+
+.attachment-btn-div .myLabel :invalid+span {
+	color: #fff;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.preview-application.preview-application2 {
+	border-radius: 0;
+	padding: 5px 5px;
+	background: none;
+	display: block;
+	text-align: center;
+	border: 1px solid #ededed;
+	color: #000;
+	margin-top: 0;
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 12px;
+	padding: 12px 5px;
+	display: block;
+	width: 100%;
+}
+
+.attachment-btn-div {
+	margin-top: 35px;
+}
+
+.cart-profile-description{
+
+background: #fff;
+
+margin-bottom: 30px;
+}
+.left-company-logo{
+
+width: 300px;
+
+float: left;
+
+text-align: center;
+
+height: 100%;
+
+border-right: 1px solid #ededed;
+
+line-height: 300px;
+}
+.left-company-logo img{
+    
+width: 150px;
+}
+
+.description-profile-details{
+
+width: 838px;
+
+float: left;
+}
+.header-part-profile-details{
+
+border-bottom: 1px solid #ededed;
+
+padding: 14px 15px;
+}
+
+.header-part-profile-details h3{
+
+display: inline-block;
+
+font-size: 18px;
+
+color: #4735c3;
+
+font-weight: 600;
+
+margin-bottom: 0;
+
+position: relative;
+
+width: 75%;
+}
+
+.share-profile-btn2{
+
+/* float: right; */
+position: relative;
+background: none;
+
+border: none;
+
+font-size: 16px;
+
+color: #4735c3;
+
+font-weight: 600;
+}
+
+.share-profile-btn2::after{content:"";position: absolute;top: 0;right: 0;width: 1px;height: 100px;background:#ededed;content: "";position: absolute;top: -12px;width: 1px;height: 50px;background: #ededed;right: -22px;}
+.share-profile-btn2::before{
+    content:"";
+    position: absolute;
+    top: -12px;
+    width: 1px;
+    height: 50px;
+    background:#ededed;
+    left: -22px;
+}
+
+.share-profile-btn2 i{
+    
+margin-right: 5px;
+}
+.date-present{
+
+float: right;
+
+color: #000;
+
+font-size: 12px;
+
+display: inline-block;
+
+margin-top: 5px;
+
+margin-right: 25px;
+}
+
+.profile-description-paragaraph{
+
+padding: 12px 15px;
+
+padding-top: 25px;
+}
+
+.profile-description-paragaraph h2{
+    
+font-size: 16px;
+    
+color: #4735c3;
+    
+font-weight: 600;
+    
+margin-bottom: 25px;
+}
+.profile-description-paragaraph h2 p{
+    
+display: block;
+    
+color: #9b9b9b;
+    
+font-size: 14px;
+    
+font-weight: normal;
+    
+line-height: 20px;
+    
+margin-top: 4px;
+    
+display: inline-block;
+    
+height: 40px;
+    
+margin-bottom: 5px;
+    
+overflow: hidden;
+}
+
+.profile-description-paragaraph h2 span{
+    display: block;
+    
+    color: #9b9b9b;
+        
+    font-size: 14px;
+        
+    font-weight: normal;
+        
+    line-height: 20px;
+        
+    margin-top: 4px;
+}
+
+
+.view-more-toogle{
+    font-size: 14px;
+    color: #4735c3;
+    font-weight: 600;
+}
+
+.upgrade-account-posted-cta{
+
+}
+.upgrade-btn-div{
+
+display: inline-block;
+
+width: 423px;
+}
+
+.upgrade-account{
+
+border: none;
+
+background: #f1f3f3;
+
+padding: 9px 22px;
+
+font-size: 14px;
+
+color: #4735c3;
+
+font-weight: 600;
+
+display: inline-block;
+
+/* width: 423px; */
+}
+
+.upgrade-account i{
+    
+margin-right: 6px;
+    
+vertical-align: middle;
+}
+.insight-apply-btn{
+
+display: inline-block;
+
+/* float: right; */
+
+margin-left: -3px;
+}
+.insight-btn{
+
+width: 207px;
+
+margin: 0;
+
+background: #4433cd;
+
+border: none;
+
+color: #fff;
+
+font-size: 14px;
+
+height: 38px;
+
+font-weight: 600;
+
+margin-left: 0;
+
+display: inline-block;
+}
+.insight-btn i{
+    
+margin-right: 5px;
+}
+
+.apply-btn-insight{
+
+width: 208px;
+
+margin: 0;
+
+background: #232146;
+
+border: none;
+
+color: #fff;
+
+font-size: 14px;
+
+height: 38px;
+
+font-weight: 600;
+
+margin-left: -5px;
+}
+.apply-btn-insight i{
+    
+margin-right: 5px;
+}
+ 
+
+@media only screen and (max-width: 1024px) {
+	.inner-oakely-network-section {
+		width: auto;
+	}
+	.profile-description-box {
+		width: 380px;
+	}
+	.header-description h2::after {
+		right: -55px;
+	}
+	.header-description h2 {
+		font-size: 16px;
+	}
+	.description-parent-profile h3 {
+		font-size: 14px;
+	}
+	.description-parent-profile h2 {
+		font-size: 14px;
+	}
+	.client-profile-section .media-body h4 {
+		font-size: 14px;
+	}
+	.client-profile-section .media-body a.connect-btn {
+		font-size: 14px;
+	}
+	.top-resume-section h3 {
+		font-size: 14px;
+	}
+	.dropdown-tab-section ul li a {
+		padding: 15px 84px;
+		font-size: 14px;
+	}
+	.dropdown-tab-section ul li a::after {
+		top: 15px;
+		right: 55px;
+	}
+	.similar-job-pnl {
+		width: auto;
+	}
+	.similar-job-pnl ul li a {
+		font-size: 14px;
+	}
+    .description-profile-details {
+        width: 640px;
+        float: left;
+    }
+    .insight-btn{
+        width: 100px;
+    }
+    .apply-btn-insight{
+        width: 100px;
+    }
+    .upgrade-btn-div {
+        width: 440px;
+    }
+    .upgrade-account{
+        padding: 9px 30px;
+    }
+    .date-present{
+        margin-right: 10px;
+    }
+    .header-part-profile-details h3{
+        width: 70%;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+	.cart-inner-layer-inner .col-sm-4 {
+		width: 100%;
+	}
+	.cart-inner-layer-inner .col-sm-8 {
+		width: 100%;
+	}
+	.profile-description-box {
+		width: 485px;
+	}
+	.header-description h2::after {
+		right: -160px;
+	}
+	.action-btn {
+		margin-top: 8px;
+		margin: 10px 20px;
+	}
+	.dropdown-tab-section ul li a {
+		padding: 15px 110px;
+		font-size: 14px;
+	}
+	.top-resume-section h3 img {
+		width: 60px;
+	}
+	.client-profile-section .media-body a.connect-btn {
+		width: 100%;
+	}
+	.cmn-modal-dialog-attachment {
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.attachment-btn-div {
+		margin-top: 52px;
+	}
+	.select-attachment label {
+		font-size: 13px;
+	}
+	.attachment-btn-div .myLabel :invalid+span {
+		font-size: 14px;
+	}
+	.preview-application.preview-application2 {
+		font-size: 14px;
+	}
+	.follow-company-section {
+		width: 100%;
+		float: none;
+		display: block;
+		border-right: none;
+	}
+	.profile-description-box {
+		width: 100%;
+	}
+	.header-description h2::after {
+		display: none;
+	}
+
+    .left-company-logo{
+        width: 100%;
+         float: none;
+         border-right: none;
+         line-height: 200px;
+    }
+    .description-profile-details {
+        width: 100%;
+        float: none;
+    }
+    .header-part-profile-details {
+        border-bottom: 1px solid #ededed;
+        padding: 14px 15px;
+        border-top: 1px solid #ededed;
+    }
+    .header-description{
+        border-top: 1px solid #ededed;
+    }
+    .header-part-profile-details h3 {
+        width: 70%;
+        font-size: 16px;
+    }
+    .profile-description-paragaraph h2{
+        font-size: 14px;
+    }
+    .upgrade-btn-div {
+        width: 520px;
+    }
+    .upgrade-account {
+        padding: 9px 70px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+	.client-profile-section .media-body a.connect-btn {
+		width: 100%;
+	}
+	.description-parent-profile .col-sm-6 {
+		margin-bottom: 5px;
+	}
+	.myLabel {
+		padding: 15px 5px;
+	}
+	.preview-application {
+		padding: 15px 5px;
+	}
+	.apply-btn-job {
+		height: 52px;
+	}
+	.action-btn {
+		margin-top: 8px;
+		margin: 8px 15px;
+	}
+	.job-save-btn {
+		height: 52px;
+	}
+	.job-apply-btn {
+		height: 52px;
+	}
+	.follow-btn {
+		height: 52px;
+		line-height: 52px;
+	}
+	.header-description h2::after {
+		right: -60px;
+	}
+	.top-resume-section h3 {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.dropdown-tab-section ul li a {
+		padding: 15px 35px;
+		font-size: 12px;
+	}
+	.dropdown-tab-section ul li a::after {
+		top: 15px;
+		right: 15px;
+	}
+	.profile-description-box {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.cmn-modal-dialog-attachment {
+		width: 350px;
+	}
+	.attachment-btn-div {
+		margin-top: 30px;
+	}
+    .header-part-profile-details h3{
+        font-size: 14px;
+        width: 55%;
+    }
+    .share-profile-btn2{
+        font-size: 14px;
+    }
+    .profile-description-paragaraph h2 p{
+        font-size: 12px;
+    }
+    .profile-description-paragaraph h2 {
+        font-size: 12px;
+    }
+    .upgrade-btn-div {
+        width: 100%;
+        display: block;
+    }
+    .insight-apply-btn{
+        width: 100%;
+        display: block;
+    }
+    .insight-btn {
+        width: 50%;
+        font-size: 12px;
+    }
+    .apply-btn-insight {
+        width: 50%;
+        margin-left: -4px;
+        font-size: 12px;
+    }
+    .upgrade-account {
+        padding: 9px 56px;
+        font-size: 10px;
+    }
+    .insight-apply-btn{
+        margin-left: 0;
+    }
+    .date-present {
+        margin-right: 0;
+    }
+    .profile-description-paragaraph h2{
+        margin-bottom: 15px;
+    }
+    .share-profile-btn2::before{
+        height: 45px;
+    }
+    .share-profile-btn2::after{
+        height: 45px;
+    }
+}
+
+@media only screen and (max-device-width: 375px) {
+	.dropdown-tab-section ul li a {
+		padding: 15px 26px;
+		font-size: 12px;
+	}
+	.dropdown-tab-section ul li a::after {
+		top: 15px;
+		right: 10px;
+	}
+	.header-description h2::after {
+		right: -25px;
+	}
+    .header-part-profile-details h3 {
+        font-size: 12px;
+        width: 55%;
+    }
+    .share-profile-btn2 {
+        font-size: 12px;
+    }
+    .share-profile-btn2::before{
+        height: 42px;
+    }
+    .share-profile-btn2::after{
+        height: 42px;
+    }
+
+
+}
